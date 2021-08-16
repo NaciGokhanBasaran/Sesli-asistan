@@ -31,8 +31,7 @@ def cevap(voice):
         urlb = 'https://www.youtube.com/results?search_query='+ searchb
         webbrowser.get().open(urlb)
         speak(searchb + 'için bulduklarım')
-    if 'dünyadaki en iyi anne kim 'in voice:
-        speak("dilek başaran")
+    
     if 'nasılsın'in voice:
         speak("iyi senden")
     if 'dünyadaki en iyi anne nerede'in voice:
