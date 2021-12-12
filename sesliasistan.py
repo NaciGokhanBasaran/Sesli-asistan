@@ -34,8 +34,7 @@ def cevap(voice):
     
     if 'nasılsın'in voice:
         speak("iyi senden")
-    if 'dünyadaki en iyi anne nerede'in voice:
-        speak("türkiye istanbul ümraniye namık kemal mahallesi gezi sokak bahar apartmanı no altı")
+   
     if 'saat kaç' in voice:
         speak(datetime.now().strftime('%H:%M:%S'))
     if 'arama yap' in voice:
